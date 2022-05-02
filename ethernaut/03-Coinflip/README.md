@@ -6,6 +6,11 @@
 1. make the same logic with proxy contract to send `true` or `false`
 2. proxy contract to call CoinFlip if false then we revert it.
 
+## Hardhat
+
+- [03-coinflip](/scripts/03-coinflip.ts)
+- [02-coinflip-v2](/scripts/03-coinflip-v2.ts)
+
 
 ## Lesson Learned
 
