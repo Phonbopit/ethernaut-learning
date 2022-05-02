@@ -9,7 +9,9 @@
     "lv2:v2": "npx hardhat run scripts/02-fallout-v2-ts",
     "test": "npx hardhat test",
     "clean": "npx hardhat clean",
-    "lint": "solhint contracts/*.sol"
+    "lint:ts": "npx eslint '**/*.{js,ts}'",
+    "lint:sol": "npx solhint 'contracts/**/*.sol'",
+    "prettier": "npx prettier '**/*.{json,sol}' --check"
   },
   "license": "MIT",
   "devDependencies": {
@@ -26,7 +28,6 @@
     "chai": "^4.2.0",
     "dotenv": "^10.0.0",
     "eslint": "^7.29.0",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
