@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "fallback": "npx hardhat run scripts/01-fallback.ts",
-    "fallback:v2": "npx hardhat run scripts/01-fallback-v2.ts"
+    "fallback:v2": "npx hardhat run scripts/01-fallback-v2.ts",
+    "test": "npx hardhat test",
+    "clean": "npx hardhat clean",
+    "lint": "solhint contracts/*.sol"
   },
   "license": "MIT",
   "devDependencies": {
