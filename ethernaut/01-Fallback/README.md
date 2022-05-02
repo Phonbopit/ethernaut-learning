@@ -30,7 +30,7 @@ await getBalance(instance) // same as getBalance(contract.address)
 ## Hardhat
 
 - [01-fallback](/scripts/01-fallback.ts)
-- [02-fallback-v2](/scripts/01-fallback-v2.ts)
+- [01-fallback-v2](/scripts/01-fallback-v2.ts)
 
 ```
 npx hardhat run scripts/01-fallback.ts
@@ -41,3 +41,4 @@ npx hardhat run scripts/01-fallback-v2-ts
 
 - You don't need `SafeMath` for solidity `v0.8.0` + has built-in the overflow/underflow check.
 - `address` and `address payable` is different. converted using explicit converstion `payable(address)`
+- `contructor` no need to add `public` Visibility for constructor is ignored because contructor always call only once.
