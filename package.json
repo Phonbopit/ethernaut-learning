@@ -10,6 +10,7 @@
     "lv3": "npx hardhat run scripts/03-coinflip.ts",
     "lv3:v2": "npx hardhat run scripts/03-coinflip-v2.ts",
     "lv3:v2:submit": "npx hardhat run scripts/03-coinflip-v2.ts --network rinkeby",
+    "lv4:submit": "npx hardhat run scripts/04-telephone.ts --network rinkeby",
     "test": "npx hardhat test",
     "clean": "npx hardhat clean",
     "lint:ts": "npx eslint '**/*.{js,ts}'",

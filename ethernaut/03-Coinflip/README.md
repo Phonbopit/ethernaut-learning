@@ -9,7 +9,7 @@
 ## Hardhat
 
 - [03-coinflip](/scripts/03-coinflip.ts)
-- [02-coinflip-v2](/scripts/03-coinflip-v2.ts)
+- [03-coinflip-v2](/scripts/03-coinflip-v2.ts)
 
 
 ## Lesson Learned
