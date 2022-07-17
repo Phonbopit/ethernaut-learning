@@ -30,6 +30,9 @@ const config: HardhatUserConfig = {
       },
       {
         version: '0.8.4'
+      },
+      {
+        version: '0.8.15'
       }
     ]
   },
